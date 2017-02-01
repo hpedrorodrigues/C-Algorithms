@@ -13,7 +13,7 @@ function build() {
     cd ..
 }
 
-function run() {
+function run_tests() {
     build
     ./bin/algorithms_test
 }
@@ -27,8 +27,8 @@ if [ -z "$1" ]; then
     exit 1
 elif [ "$1" == "build" ]; then
     build
-elif [ "$1" == "run" ]; then
-    run
+elif [ "$1" == "test" ]; then
+    run_tests
 elif [ "$1" == "clean" ]; then
     clean
 else
