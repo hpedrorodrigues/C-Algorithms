@@ -1,15 +1,22 @@
-# Algorithms - C
+[john-washam-github]: https://github.com/jwasham
+[google-interview-repo]: https://github.com/jwasham/google-interview-university
+
+# Algorithms
+
+Part of my daily plan for studying algorithms and data structures in C. Inspired by 
+[Google Interview University][google-interview-repo] of 
+[John Washam][john-washam-github]. 
 
 ## Content
 
 ### Data Structures
 
-- [X] ArrayList
+- [X] ArrayList (Automatically Resizing Vector)
 - [X] Linked List (Singly)
 - [X] Linked List (Doubly)
-- [X] Stack (ArrayList)
+- [X] Stack (Array)
 - [X] Stack (Linked List)
-- [X] Queue (ArrayList)
+- [X] Queue (Array)
 - [X] Queue (Linked List)
 - [ ] Hash Table
 
