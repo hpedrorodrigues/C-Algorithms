@@ -1,0 +1,4 @@
+#ifndef HASH_TABLE_DOUBLE_HASHING_H
+#define HASH_TABLE_DOUBLE_HASHING_H
+
+#endif

@@ -8,7 +8,10 @@ set(HEADER_FILES
         data_structure/queue/array/queue.h
         data_structure/queue/linked_list/queue.h
         data_structure/stack/array/stack.h
-        data_structure/stack/linked_list/stack.h)
+        data_structure/stack/linked_list/stack.h
+        data_structure/hash_table/double_hashing/hash_table.h
+        data_structure/hash_table/probing/linear/hash_table.h
+        data_structure/hash_table/probing/quadratic/hash_table.h)
 
 set(SOURCE_FILES
         memory/memory.c
@@ -18,7 +21,10 @@ set(SOURCE_FILES
         data_structure/queue/array/queue.c
         data_structure/queue/linked_list/queue.c
         data_structure/stack/array/stack.c
-        data_structure/stack/linked_list/stack.c)
+        data_structure/stack/linked_list/stack.c
+        data_structure/hash_table/double_hashing/hash_table.c
+        data_structure/hash_table/probing/linear/hash_table.c
+        data_structure/hash_table/probing/quadratic/hash_table.c)
 
 set(CMAKE_BUILD_TYPE Release)
 
