@@ -1,24 +1,24 @@
 cmake_minimum_required(VERSION 2.8)
 
 set(HEADER_FILES
-        util/util.h
-        array_list/array_list.h
-        linked_list/singly/singly_linked_list.h
-        linked_list/doubly/doubly_linked_list.h
-        queue/array/queue.h
-        queue/linked_list/queue.h
-        stack/array/stack.h
-        stack/linked_list/stack.h)
+        memory/memory.h
+        data_structure/array_list/array_list.h
+        data_structure/linked_list/singly/singly_linked_list.h
+        data_structure/linked_list/doubly/doubly_linked_list.h
+        data_structure/queue/array/queue.h
+        data_structure/queue/linked_list/queue.h
+        data_structure/stack/array/stack.h
+        data_structure/stack/linked_list/stack.h)
 
 set(SOURCE_FILES
-        util/util.c
-        array_list/array_list.c
-        linked_list/singly/singly_linked_list.c
-        linked_list/doubly/doubly_linked_list.c
-        queue/array/queue.c
-        queue/linked_list/queue.c
-        stack/array/stack.c
-        stack/linked_list/stack.c)
+        memory/memory.c
+        data_structure/array_list/array_list.c
+        data_structure/linked_list/singly/singly_linked_list.c
+        data_structure/linked_list/doubly/doubly_linked_list.c
+        data_structure/queue/array/queue.c
+        data_structure/queue/linked_list/queue.c
+        data_structure/stack/array/stack.c
+        data_structure/stack/linked_list/stack.c)
 
 set(CMAKE_BUILD_TYPE Release)
 
