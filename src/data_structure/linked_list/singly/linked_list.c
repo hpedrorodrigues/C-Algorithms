@@ -1,4 +1,4 @@
-#include "singly_linked_list.h"
+#include "linked_list.h"
 
 SinglyLinkedList *sll_new_instance() {
     SinglyLinkedList *list = malloc(sizeof(SinglyLinkedList));

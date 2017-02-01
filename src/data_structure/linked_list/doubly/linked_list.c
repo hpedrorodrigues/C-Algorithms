@@ -1,4 +1,4 @@
-#include "doubly_linked_list.h"
+#include "linked_list.h"
 
 DoublyLinkedList *dll_new_instance() {
     DoublyLinkedList *list = malloc(sizeof(DoublyLinkedList));

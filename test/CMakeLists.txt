@@ -7,8 +7,8 @@ include_directories(${SRC_DIR})
 set(HEADER_FILES
         ${SRC_DIR}/memory/memory.h
         ${SRC_DIR}/data_structure/array_list/array_list.h
-        ${SRC_DIR}/data_structure/linked_list/singly/singly_linked_list.h
-        ${SRC_DIR}/data_structure/linked_list/doubly/doubly_linked_list.h
+        ${SRC_DIR}/data_structure/linked_list/singly/linked_list.h
+        ${SRC_DIR}/data_structure/linked_list/doubly/linked_list.h
         ${SRC_DIR}/data_structure/queue/array/queue.h
         ${SRC_DIR}/data_structure/queue/linked_list/queue.h
         ${SRC_DIR}/data_structure/stack/array/stack.h
@@ -17,8 +17,8 @@ set(HEADER_FILES
 set(SOURCE_FILES
         ${SRC_DIR}/memory/memory.c
         ${SRC_DIR}/data_structure/array_list/array_list.c
-        ${SRC_DIR}/data_structure/linked_list/singly/singly_linked_list.c
-        ${SRC_DIR}/data_structure/linked_list/doubly/doubly_linked_list.c
+        ${SRC_DIR}/data_structure/linked_list/singly/linked_list.c
+        ${SRC_DIR}/data_structure/linked_list/doubly/linked_list.c
         ${SRC_DIR}/data_structure/queue/array/queue.c
         ${SRC_DIR}/data_structure/queue/linked_list/queue.c
         ${SRC_DIR}/data_structure/stack/array/stack.c

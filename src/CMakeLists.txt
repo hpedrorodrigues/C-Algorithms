@@ -3,8 +3,8 @@ cmake_minimum_required(VERSION 2.8)
 set(HEADER_FILES
         memory/memory.h
         data_structure/array_list/array_list.h
-        data_structure/linked_list/singly/singly_linked_list.h
-        data_structure/linked_list/doubly/doubly_linked_list.h
+        data_structure/linked_list/singly/linked_list.h
+        data_structure/linked_list/doubly/linked_list.h
         data_structure/queue/array/queue.h
         data_structure/queue/linked_list/queue.h
         data_structure/stack/array/stack.h
@@ -13,8 +13,8 @@ set(HEADER_FILES
 set(SOURCE_FILES
         memory/memory.c
         data_structure/array_list/array_list.c
-        data_structure/linked_list/singly/singly_linked_list.c
-        data_structure/linked_list/doubly/doubly_linked_list.c
+        data_structure/linked_list/singly/linked_list.c
+        data_structure/linked_list/doubly/linked_list.c
         data_structure/queue/array/queue.c
         data_structure/queue/linked_list/queue.c
         data_structure/stack/array/stack.c

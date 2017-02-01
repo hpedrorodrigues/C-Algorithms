@@ -3,7 +3,7 @@
 
 #include <assert.h>
 #include "../../../suite/suite.h"
-#include "data_structure/linked_list/doubly/doubly_linked_list.h"
+#include "data_structure/linked_list/doubly/linked_list.h"
 
 void run_all_doubly_linked_list_tests();
 
