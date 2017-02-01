@@ -1,0 +1,12 @@
+# Folder
+.idea
+build
+cmake-build-debug
+bin
+lib
+
+# File
+*.iml
+
+# Project Executable Files
+*_
