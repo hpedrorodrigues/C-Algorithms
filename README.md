@@ -1,5 +1,9 @@
 [john-washam-github]: https://github.com/jwasham
 [google-interview-repo]: https://github.com/jwasham/google-interview-university
+[travis-repo]: https://travis-ci.org/hpedrorodrigues/C-Algorithms
+[travis-badge]: https://travis-ci.org/hpedrorodrigues/C-Algorithms.svg?branch=master
+
+[![Build Status][travis-badge]][travis-repo]
 
 # Algorithms
 
