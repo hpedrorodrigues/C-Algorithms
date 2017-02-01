@@ -22,7 +22,9 @@ Part of my daily plan for studying algorithms and data structures in C. Inspired
 - [X] Stack (Linked List)
 - [X] Queue (Array)
 - [X] Queue (Linked List)
-- [ ] Hash Table
+- [ ] Hash Table (Double Hashing)
+- [ ] Hash Table (Linear Probing)
+- [ ] Hash Table (Quadratic Probing)
 
 ### More Knowledge
 
